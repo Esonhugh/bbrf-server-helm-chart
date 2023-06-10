@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ .Release.Name }}-config
+  namespace: {{ .Release.Namespace }}
+data:
+  COUCHDB_USER: {{ .Values.couchdb.username }}
+  COUCHDB_PASSWORD: {{ .Values.couchdb.password }}  # please please please replace this with a secure password
+  BBRF_PASSWORD: {{ .Values.bbrf.password }} # please please please replace this with a secure password
