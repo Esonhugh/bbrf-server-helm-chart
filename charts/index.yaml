@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  bbrf-server:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-06-10T22:15:58.727586+08:00"
+    description: 'A Helm chart about Bug Bounty Recon Framework for kubernetes. raw
+      project is https://github.com/honoki/bbrf-server. You need provide a PresistentVolume
+      for database. named as:  #magic___^_^___line '
+    digest: 3292037d8d5554926348e786e52f90fb1dcb3822b9f1638cc506e5d09b1d4db6
+    maintainers:
+    - email: helm@eson.ninja
+      name: Esonhugh
+      url: https://eson.ninja
+    name: bbrf-server
+    type: application
+    urls:
+    - bbrf-server-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-06-10T22:15:58.727091+08:00"
